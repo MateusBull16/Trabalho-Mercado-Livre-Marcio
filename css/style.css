@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  margin: auto;
+}
+
+.navbar-topo{
+  background-color: rgb(222, 255, 38);
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  padding: 15px 40px;
+  justify-content: space-between;
+}
+
+.menu-topo {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.menu-topo a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu-topo a:hover {
+  color: blue;
+}
+
+.conteudo {
+  display: flex; /*ativa o flexbox*/
+  background-color: rgb(215, 251, 12);
+}
+
+.menu-lateral {
+  flex: 1;
+  background-color: rgb(215, 251, 12);
+}
+
+.menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-lateral li {
+  border-bottom: 1px solid blue;
+}
+
+.menu-lateral a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-lateral a:hover {
+  background-color: blue;
+}
+
+main {
+  flex: 4;
+  background-color: white;
+  display: flex;
+}
+
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+
+header,
+main,
+footer {
+  padding: 20px;
+}
+
+main section {
+  padding: 10px;
+  flex: 3;
+  text-align: justify;
+}
+
+main aside {
+  background-color: ghostwhite;
+  padding: 10px;
+  flex: 1;
+  margin-left: 20px;
+}
+
+header .logo {
+  padding: 10px;
+  width: 30%;
+  margin-right: 10px;
+}
+header .titulo {
+  padding: 20px;
+  width: 70%;
+}
+header .logo img {
+  width: 100%;
+}
+
+
+
+

@@ -123,6 +123,44 @@ header .logo img {
   width: 100%;
 }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+thead {
+  background-color: #0045a1;
+  color: white;
+}
+
+thead th {
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+  padding: 5px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: aquamarine;
+}
+
+tbody tr:hover {
+  background-color: #ccc;
+}
+
+tfoot {
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
 
 
 

@@ -148,20 +148,18 @@ td {
 }
 
 tbody tr:nth-child(even) {
-  background-color: aquamarine;
+  background-color: rgb(229, 233, 27);
 }
 
 tbody tr:hover {
-  background-color: #ccc;
+  background-color: #b6b6b6;
 }
 
 tfoot {
-  background-color: red;
+  background-color: #0045a1;
   color: white;
   text-align: center;
 }
-
-
 
 
 
